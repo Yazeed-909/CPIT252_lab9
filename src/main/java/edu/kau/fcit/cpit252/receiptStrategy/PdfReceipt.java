@@ -62,7 +62,7 @@ public class PdfReceipt extends Receipt{
            
             contentStream.endText();
             contentStream.close();
-            document.save(this.path + "C:\\Users\\yzeed\\Desktop\\test.pdf"); // added fix
+            document.save(this.path + "C:\\Users\\yzeed\\Desktop\\test.pdf");
             document.close();
         }
         catch(IOException e){
